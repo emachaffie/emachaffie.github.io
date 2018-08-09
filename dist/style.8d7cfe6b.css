@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box; }
+
+.navbar {
+  background-color: #6999F3; }
+
+.nameTitle {
+  color: pink; }
+
+.mainPhoto {
+  width: 200px;
+  border-radius: 50%; }
