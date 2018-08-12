@@ -7,6 +7,8 @@
 .nameTitle {
   color: #fff; }
 
+.icon {
+  width: 30px; }
+
 .mainPhoto {
-  width: 200px;
-  border-radius: 50%; }
+  width: 200px; }

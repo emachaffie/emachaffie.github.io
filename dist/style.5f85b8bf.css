@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-// Nav
+/* // Nav */
 
 .navbar {
   background-color: #6999F3;
@@ -12,7 +12,11 @@
   color:#fff;
 }
 
-// Homepage
+.icon {
+  width: 30px;
+}
+
+ /* Homepage */
 
 .mainPhoto {
   width: 200px;
