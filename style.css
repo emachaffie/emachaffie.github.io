@@ -77,15 +77,15 @@ main {
 
  .tagline {
    font-size: 1.1rem;
-   margin: 20px;
-   color: black;
+   margin: 20px 0 0 0;
+   color: #fff;
    text-align: center;
  }
 
- .subtagline {
+ /* .subtagline {
    color: black;
    text-align: center;
- }
+ } */
 /* 
 .mainPhoto {
   width: 80%;
