@@ -5,12 +5,14 @@
 
 body {
   min-width: 320px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
 }
 
 /* // Nav */
 
 .navbar {
-  background-color: #6999F3;
+  /* background-color: #6999F3; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -21,6 +23,7 @@ body {
   color:#fff;
   display: inline-block;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .iconGroup {
@@ -28,7 +31,7 @@ body {
 }
 
 .icon {
-  width: 35px;
+  width: 40px;
   padding-left: 5px;
 }
 
@@ -40,6 +43,30 @@ main {
 
  /* Homepage */
 
+ .mainDiv {
+   width: 100%;
+   background: url(media/dogFence.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+
+ /* .mainDiv::after {
+   background: url(media/dogFence.jpg);
+   background-size: cover;
+   opacity: 0.4;
+   display: block;
+   background-size: cover;
+   content: "";
+   position: absolute;
+   width: 100%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: -2;
+ } */
+
  .mainContent {
    display: flex;
    flex-wrap: wrap;
@@ -50,22 +77,41 @@ main {
 
  .tagline {
    font-size: 1.1rem;
-   margin: 20px; 
+   margin: 20px;
+   color: black;
+   text-align: center;
  }
 
+ .subtagline {
+   color: black;
+   text-align: center;
+ }
+/* 
 .mainPhoto {
   width: 80%;
+  display: none; */
   /* border-radius: 50%; */
+/* } */
+
+.spacer {
+  width: 100%;
+  height: 150px;
+  background-color: transparent;
 }
 
 .buttonContainer {
   display: flex;
-  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .homepageButton {
   padding: 15px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  margin: 10px 20px;
-  width: 200px;
+  font-size: 1rem;
+  /* margin: 10px 20px; */
+  color: white;
+  background-color: transparent;
+  border: none;
+  flex-shrink: 1;
 }
