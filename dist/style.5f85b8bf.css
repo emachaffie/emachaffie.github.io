@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+/* // Nav */
+
+.navbar {
+  background-color: #6999F3;
+}
+
+.nameTitle {
+  color:#fff;
+}
+
+.icon {
+  width: 30px;
+}
+
+ /* Homepage */
+
+.mainPhoto {
+  width: 200px;
+  border-radius: 50%;
+}
