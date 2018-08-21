@@ -13,15 +13,12 @@ body {
 
 .navbar {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 15px 0;
-  background-color: rgb(95, 95,)
 }
 
 .nameTitle {
-  display: inline-block;
-  margin: 0;
+  margin-left: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -30,6 +27,7 @@ body {
 
 .iconGroup {
   display: inline-block;
+  margin-right: 20px;
 }
 
 .icon {
@@ -52,33 +50,7 @@ main {
    background-size: cover;
    background-position: center;
    min-height: 500px;
-   /* padding-bottom: 150px; */
  }
-
- /* .mainDiv::after {
-   background: url(media/dogFence.jpg);
-   background-size: cover;
-   opacity: 0.4;
-   display: block;
-   background-size: cover;
-   content: "";
-   position: absolute;
-   width: 100%;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   z-index: -2;
- } */
-/* 
- .mainContent {
-   display: flex;
-   flex-wrap: wrap;
-   align-content: center;
-   justify-content: center;
-   align-items: center;
-   padding-bottom: 100px;
- } */
 
  .tagline {
    font-size: 2.2rem;
@@ -89,18 +61,12 @@ main {
    color: #fff;
  }
 
- .subtagline {
-   /* color: rgb(95, 95, 95); */
-   text-align: center;
-   font-weight: 400;
-   /* font-size: 1.5rem; */
+.subtagline {
+  /* color: rgb(95, 95, 95); */
+  text-align: center;
+  font-weight: 400;
+  /* font-size: 1.5rem; */
  }
-/* 
-.mainPhoto {
-  width: 80%;
-  display: none; */
-  /* border-radius: 50%; */
-/* } */
 
 .spacer {
   width: 100%;
@@ -128,3 +94,59 @@ main {
   border: none;
   flex-shrink: 1;
 }
+
+/* Media Queries */
+@media all and (min-width: 650px) {
+
+  main {
+    margin: 0;
+  }
+  
+  .nameTitle {
+    font-size: 2rem;
+  }
+
+  .icon {
+    width: 45px;
+  }
+
+  .mainDiv {
+    /* min-height: 550px; */
+  }
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .spacer {
+    height: 50px;
+  }
+
+  .homepageButton {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    margin: 15px 0;
+    text-align: right;
+  }
+}
+
+@media all and (min-width: 768px) {
+
+  .mainDiv {
+    height: 550px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .mainDiv {
+    height: 550px;
+  }
+
+}
+
+/* 768px
+ 992px
+ 1200px */
