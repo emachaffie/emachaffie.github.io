@@ -110,13 +110,10 @@ main {
     width: 45px;
   }
 
-  .mainDiv {
-    /* min-height: 550px; */
-  }
   .buttonContainer {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 200px;
   }
 
   .spacer {
@@ -146,7 +143,3 @@ main {
   }
 
 }
-
-/* 768px
- 992px
- 1200px */
