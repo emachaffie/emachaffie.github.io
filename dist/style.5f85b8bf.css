@@ -9,25 +9,32 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* // Nav */
+.about_body {
+  background-color: #A1C3DE;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/*  Nav */
 
 .navbar {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding: 15px 0;
 }
 
 .nameTitle {
-  display: inline-block;
-  margin: 0;
+  margin-left: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #fff;
-
 }
 
 .iconGroup {
   display: inline-block;
+  margin-right: 20px;
 }
 
 .icon {
@@ -50,33 +57,7 @@ main {
    background-size: cover;
    background-position: center;
    min-height: 500px;
-   /* padding-bottom: 150px; */
  }
-
- /* .mainDiv::after {
-   background: url(media/dogFence.jpg);
-   background-size: cover;
-   opacity: 0.4;
-   display: block;
-   background-size: cover;
-   content: "";
-   position: absolute;
-   width: 100%;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   z-index: -2;
- } */
-/* 
- .mainContent {
-   display: flex;
-   flex-wrap: wrap;
-   align-content: center;
-   justify-content: center;
-   align-items: center;
-   padding-bottom: 100px;
- } */
 
  .tagline {
    font-size: 2.2rem;
@@ -87,18 +68,10 @@ main {
    color: #fff;
  }
 
- .subtagline {
-   /* color: rgb(95, 95, 95); */
-   text-align: center;
-   font-weight: 400;
-   /* font-size: 1.5rem; */
+.subtagline {
+  text-align: center;
+  font-weight: 400;
  }
-/* 
-.mainPhoto {
-  width: 80%;
-  display: none; */
-  /* border-radius: 50%; */
-/* } */
 
 .spacer {
   width: 100%;
@@ -108,7 +81,6 @@ main {
 
 .buttonContainer {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   margin-bottom: 20px;
   width: 100%;
@@ -117,12 +89,65 @@ main {
 .homepageButton {
   padding: 8px 20px;
   margin: 15px;
-  /* font-family: 'Open Sans', sans-serif; */
   font-weight: 400;
   font-size: 1rem;
-  /* margin: 10px 20px; */
   color: white;
   background-color: rgba(95, 95, 95, 0.651);
   border: none;
   flex-shrink: 1;
+}
+j
+/* About */
+
+.about_navbar {
+  background-color: #A1C3DE;
+}
+
+/* Media Queries */
+@media all and (min-width: 650px) {
+
+  main {
+    margin: 0;
+  }
+  
+  .nameTitle {
+    font-size: 2rem;
+  }
+
+  .icon {
+    width: 45px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .spacer {
+    height: 50px;
+  }
+
+  .homepageButton {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    margin: 15px 0;
+    text-align: right;
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+
+  .mainDiv {
+    height: 550px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .mainDiv {
+    height: 550px;
+  }
 }

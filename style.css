@@ -9,11 +9,15 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.about_body {
+  background-color: #A1C3DE;
+}
+
 button:hover {
   cursor: pointer;
 }
 
-/* // Nav */
+/*  Nav */
 
 .navbar {
   display: flex;
@@ -26,7 +30,6 @@ button:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #fff;
-
 }
 
 .iconGroup {
@@ -66,10 +69,8 @@ main {
  }
 
 .subtagline {
-  /* color: rgb(95, 95, 95); */
   text-align: center;
   font-weight: 400;
-  /* font-size: 1.5rem; */
  }
 
 .spacer {
@@ -80,7 +81,6 @@ main {
 
 .buttonContainer {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   margin-bottom: 20px;
   width: 100%;
@@ -89,14 +89,18 @@ main {
 .homepageButton {
   padding: 8px 20px;
   margin: 15px;
-  /* font-family: 'Open Sans', sans-serif; */
   font-weight: 400;
   font-size: 1rem;
-  /* margin: 10px 20px; */
   color: white;
   background-color: rgba(95, 95, 95, 0.651);
   border: none;
   flex-shrink: 1;
+}
+j
+/* About */
+
+.about_navbar {
+  background-color: #A1C3DE;
 }
 
 /* Media Queries */
@@ -146,5 +150,4 @@ main {
   .mainDiv {
     height: 550px;
   }
-
 }
