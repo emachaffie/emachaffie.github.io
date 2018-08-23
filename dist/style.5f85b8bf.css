@@ -9,10 +9,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.about_body {
-  background-color: #A1C3DE;
-}
-
 button:hover {
   cursor: pointer;
 }
@@ -64,7 +60,6 @@ main {
    font-weight: 800;
    margin: 10px 0 10px 0;
    text-align: center;
-   /* color: rgb(95, 95, 95); */
    color: #fff;
  }
 
@@ -96,11 +91,24 @@ main {
   border: none;
   flex-shrink: 1;
 }
-j
+
 /* About */
 
-.about_navbar {
-  background-color: #A1C3DE;
+.aboutNavbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  background-color: #A3C5E0;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.aboutImg {
+  width: 90%;
 }
 
 /* Media Queries */
