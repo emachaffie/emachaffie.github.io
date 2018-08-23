@@ -116,6 +116,23 @@ main {
   margin: 10px;
 }
 
+.buttonContainerAbout {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  width: 100%;
+}
+.homepageButtonAbout {
+  padding: 8px 20px;
+  margin: 15px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  background-color: #A3C5E0;
+  border: none;
+  flex-shrink: 1;
+}
+
 /* Media Queries */
 @media all and (min-width: 650px) {
 
