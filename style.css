@@ -13,7 +13,7 @@ button:hover {
   cursor: pointer;
 }
 
-/* // Nav */
+/*  Nav */
 
 .navbar {
   display: flex;
@@ -26,7 +26,6 @@ button:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #fff;
-
 }
 
 .iconGroup {
@@ -61,15 +60,12 @@ main {
    font-weight: 800;
    margin: 10px 0 10px 0;
    text-align: center;
-   /* color: rgb(95, 95, 95); */
    color: #fff;
  }
 
 .subtagline {
-  /* color: rgb(95, 95, 95); */
   text-align: center;
   font-weight: 400;
-  /* font-size: 1.5rem; */
  }
 
 .spacer {
@@ -80,7 +76,6 @@ main {
 
 .buttonContainer {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   margin-bottom: 20px;
   width: 100%;
@@ -89,12 +84,51 @@ main {
 .homepageButton {
   padding: 8px 20px;
   margin: 15px;
-  /* font-family: 'Open Sans', sans-serif; */
   font-weight: 400;
   font-size: 1rem;
-  /* margin: 10px 20px; */
   color: white;
   background-color: rgba(95, 95, 95, 0.651);
+  border: none;
+  flex-shrink: 1;
+}
+
+/* About */
+
+.aboutNavbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  background-color: #A3C5E0;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutImg {
+  width: 90%;
+}
+
+.aboutP {
+  padding: 15px;
+  margin: 10px;
+}
+
+.buttonContainerAbout {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  width: 100%;
+}
+.homepageButtonAbout {
+  padding: 8px 20px;
+  margin: 15px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  background-color: #A3C5E0;
   border: none;
   flex-shrink: 1;
 }
@@ -146,5 +180,4 @@ main {
   .mainDiv {
     height: 550px;
   }
-
 }
