@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto:700" rel="stylesheet">  <link rel="stylesheet" href="style.css">
-  <!-- <script src="scripts.js" defer></script> -->
   <title>Liz MacHaffie</title>
 </head>
 <body>
@@ -25,35 +24,51 @@
         <div class="spacer"></div>
         <div class="buttonContainer">
           <a href="./about.html"><button class="homepageButton">about</button></a>
-          <a href="./projects.html"><button class="homepageButton">projects</button></a>
+          <a href="#projectHeader"><button class="homepageButton">projects</button></a>
           <a href="/media/lizMacHaffieResume.pdf"><button class="homepageButton">resume</button></a>
         </div>
     </main>
   </div>
-  <h2 class="projectHeader">Projects</h2>
+  <h2 id="projectHeader">Projects</h2>
   <div class="projects">
-      <div class="singleProject">
+    <div class="singleProject">
+      <h3 class="projectTitle">Timeboxer</h3>
+      <p class="projectDescription"><q>Work expands to fill the time available for its completion.</q> This app will change the way users tackle their "to do" list. "Timeboxing" is a very effective way to increase personal productivity. Timeboxer will give people the tools they need in a convenient and effective app.</p>
+      <div class="projectLinkDiv">
+          <!-- <a class="projectLink projectLive" href="https://spotcheck-quiz.firebaseapp.com/" >Live Site</a> -->
+          <a class="projectLink projectGitHub" href="">Code on GitHub Coming Soon</a>
+      </div>
+      <!-- <a class="projectScreenshotLink" href="https://spotcheck-quiz.firebaseapp.com/"><img class="projectScreenshot spotcheckScreenshot" src="/media/SpotCheckScreenshot.png" alt="screenshot of Spot Check homepage"></a> -->
+      <!-- <p><span class="projectSubheading">Technologies planned:</span> <span class="technologyList">JavaScript, React, React Router, Firebase</span></p> -->
+    </div>  
+    <div class="singleProject">
         <h3 class="projectTitle">Spot Check</h3>
         <p class="projectDescription">Mobile-friendly web app that helps useres find happy, healthy puppies from reputable places. Final project for Momentum. Co-coded front-end with one other developer. Completed in 2.5 weeks.</p>
+        <div class="projectLinkDiv">
+            <a class="projectLink projectLive" href="https://spotcheck-quiz.firebaseapp.com/" >Live Site</a>
+            <a class="projectLink projectGitHub" href="https://github.com/emachaffie/spotcheck">Code on GitHub</a>
+        </div>
         <a class="projectScreenshotLink" href="https://spotcheck-quiz.firebaseapp.com/"><img class="projectScreenshot spotcheckScreenshot" src="/media/SpotCheckScreenshot.png" alt="screenshot of Spot Check homepage"></a>
         <p><span class="projectSubheading">Technologies used:</span> <span class="technologyList">JavaScript, React, React Router, Firebase, Superagent</span></p>
-        <a class="projectLink projectLive" href="https://spotcheck-quiz.firebaseapp.com/" >Live Site</a>
-        <a class="projectLink projectGitHub" href="https://github.com/emachaffie/spotcheck">Code on GitHub</a>
       </div>
       <div class="singleProject">
         <h3 class="projectTitle">Multilingual Melodies</h3>
         <p class="projectDescription">iTunes API search for language learners. This was my first project using an external API. Week 4 Momentum project. Coded over 4 days.</p>
+        <div class="projectLinkDiv">
+          <a class="projectLink projectLive" href="https://multilingual-melodies.firebaseapp.com/" >Live Site</a>
+          <a class="projectLink projectGitHub" href="https://github.com/emachaffie/music-sampler">Code on GitHub</a>
+        </div>
         <a class="projectScreenshotLink" href="https://multilingual-melodies.firebaseapp.com/"><img class="projectScreenshot spotcheckScreenshot" src="/media/multilingualMelodiesScreenshot.png" alt="screenshot of Multilingual Melodies"></a>
         <p><span class="projectSubheading">Technologies used:</span> <span class="technologyList">JavaScript, jQuery, SuperAgent, CSS </span></p>
-        <a class="projectLink projectLive" href="https://multilingual-melodies.firebaseapp.com/" >Live Site</a>
-        <a class="projectLink projectGitHub" href="https://github.com/emachaffie/music-sampler">Code on GitHub</a>
       </div>
       <div class="singleProject">
         <h3 class="projectTitle">Vanilla JS Calculator</h3>
         <p class="projectDescription">One of my first mini projects. Basic calculator with clickable buttons and some keyboard functionality. Pointer pointer thrown in for fun. Week 2 Momentum assignment. Coded in 2 days. Not representative of my current skill level, but this is how I started!</p>
+        <div class="projectLinkDiv">
+          <a class="projectLink projectGitHub" href="https://github.com/emachaffie/vanillaJScalc">Code on GitHub</a>
+        </div>
         <a class="projectScreenshotLink" href="https://github.com/emachaffie/vanillaJScalc"><img class="projectScreenshot spotcheckScreenshot" src="/media/PointerPointer.gif" alt="screenshot of Spot Check homepage"></a>
         <p><span class="projectSubheading">Technologies used:</span> <span class="technologyList">JavaScript, CSS, HTML</span></p>
-        <a class="projectLink projectGitHub" href="https://github.com/emachaffie/vanillaJScalc">Code on GitHub</a>
       </div>
     </div>
 </body>

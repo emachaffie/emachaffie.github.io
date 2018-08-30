@@ -56,7 +56,7 @@ main {
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   min-height: 500px;
+   min-height: 525px;
  }
 
  .tagline {
@@ -91,18 +91,18 @@ main {
   font-weight: 400;
   font-size: 1rem;
   color: white;
-  background-color: rgba(95, 95, 95, 0.651);
+  background-color: rgba(70, 70, 70, 0.651);
   border: none;
   flex-shrink: 1;
 }
-/* 
+
 .homepageButton:hover {
-  box-shadow: 3px 3px 5px 6px #ccc;
-}  */
+  background-color:rgba(70, 70, 70, 0.98);
+} 
 
 /* Projects */
 
-.projectHeader {
+#projectHeader {
   margin: 20px;
 }
 
@@ -117,14 +117,16 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border-top: 1px solid #474747;
+  padding-bottom: 50px;
 }
 
 .projectTitle {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .projectDescription {
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
   color: #5f5f5f;
 }
 
@@ -133,15 +135,26 @@ main {
   margin: 20px 0;
 }
 
+.projectLinkDiv {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 20px;
+}
+
 .projectLink {
   text-decoration: none;
   font-weight: 900;
   font-size: 1rem;
-  margin: 1.2rem 0;
+  padding: 0 25px;
 }
 
 .projectLink:visited {
   color: #474747;
+}
+
+.projectLink:hover {
+  font-size: 1.08rem;
 }
 
 .projectSubheading {
@@ -193,6 +206,10 @@ main {
   background-color: #A3C5E0;
   border: none;
   flex-shrink: 1;
+}
+
+.homepageButtonAbout:hover {
+  background-color: rgb(124, 173, 212);
 }
 
 /* Media Queries */
