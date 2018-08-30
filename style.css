@@ -246,6 +246,60 @@ main {
     text-align: right;
     font-size: 1.2rem;
   }
+
+  .aboutContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .aboutImg {
+   max-width: 45%;
+  }
+  
+  .aboutP {
+    padding: 15px;
+    margin: 10px;
+    max-width: 45%;
+  }
+
+  .profileImg {
+    order: 3;
+  }
+
+  .climbingImg {
+    order: 6;
+  }
+  
+  .p2 {
+    order: 4;
+  }
+
+  .p3 {
+    order: 4;
+  }
+
+
+  .buttonContainerAbout {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    width: 100%;
+  }
+  .homepageButtonAbout {
+    padding: 8px 20px;
+    margin: 15px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    background-color: #A3C5E0;
+    border: none;
+    flex-shrink: 1;
+  }
+  
+  .homepageButtonAbout:hover {
+    background-color: rgb(124, 173, 212);
+  }
 }
 
 @media all and (min-width: 768px) {
