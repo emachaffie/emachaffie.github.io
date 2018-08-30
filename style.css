@@ -139,6 +139,7 @@ main {
   display: flex;
   justify-content: center;
   width: 90%;
+  height: 20px;
 }
 
 .projectLink {
@@ -150,6 +151,10 @@ main {
 
 .projectLink:visited {
   color: #474747;
+}
+
+.projectLink:hover {
+  font-size: 1.08rem;
 }
 
 .projectSubheading {
