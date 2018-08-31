@@ -251,10 +251,12 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 20px;
   }
   
   .aboutImg {
    max-width: 45%;
+   margin-right: 20px;
   }
   
   .aboutP {
@@ -265,10 +267,18 @@ main {
 
   .profileImg {
     order: 3;
+    margin-left: 20px;
   }
 
-  .climbingImg {
+  .dogTabletImage {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .zumiImg {
     order: 6;
+    margin-left: 20px;
+    margin-top: 20px;
   }
   
   .p2 {
@@ -279,26 +289,12 @@ main {
     order: 4;
   }
 
-
   .buttonContainerAbout {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
     width: 100%;
-  }
-  .homepageButtonAbout {
-    padding: 8px 20px;
-    margin: 15px;
-    font-weight: 400;
-    font-size: 1rem;
-    color: white;
     background-color: #A3C5E0;
-    border: none;
-    flex-shrink: 1;
-  }
-  
-  .homepageButtonAbout:hover {
-    background-color: rgb(124, 173, 212);
   }
 }
 
@@ -313,4 +309,11 @@ main {
   .mainDiv {
     height: 550px;
   }
+
+  .aboutContainer {
+    max-width: 1035px;
+    margin: auto;
+  }
+
+
 }
