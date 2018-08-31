@@ -196,12 +196,14 @@ main {
   justify-content: space-around;
   margin: 20px 0;
   width: 100%;
+  background-color: #A3C5E0;
 }
+
 .homepageButtonAbout {
-  padding: 8px 20px;
-  margin: 15px;
+  padding: 15px 20px;
+  margin: 0;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
   background-color: #A3C5E0;
   border: none;
@@ -287,14 +289,6 @@ main {
 
   .p3 {
     order: 4;
-  }
-
-  .buttonContainerAbout {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-    width: 100%;
-    background-color: #A3C5E0;
   }
 }
 
