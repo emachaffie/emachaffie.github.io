@@ -102,7 +102,7 @@ main {
 
 /* Projects */
 
-#projectHeader {
+#projects {
   margin: 20px;
 }
 
@@ -147,6 +147,7 @@ main {
   font-weight: 900;
   font-size: 1rem;
   padding: 0 25px;
+  color: rgba(70, 70, 70);
 }
 
 .projectLink:visited {
@@ -155,6 +156,7 @@ main {
 
 .projectLink:hover {
   font-size: 1.08rem;
+  color: #000;
 }
 
 .projectSubheading {
@@ -297,17 +299,80 @@ main {
   .mainDiv {
     height: 550px;
   }
+
+  .singleProject {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .projectTitle {
+    width: 45%;
+    order: 0;
+    align-self: center;
+  }
+
+  .projectDescription {
+    max-width: 45%;
+    order:1;
+  }
+
+  .projectScreenshot {
+    /* margin: 0 0 0 20px; */
+    margin: 5px 0 0 0;
+  }
+
+  .technologyP {
+    order: 4;
+    margin-top: 30px;
+    max-width: 45%;
+  }
+
+  .projectLinkDiv {
+    width: 45%;
+    order:0;
+    align-self: center;
+  }
+
+  .projectScreenshotLink {
+    max-width: 50%;
+    order: 2;
+    margin: 0 0 0 20px;
+  }
+
+  .projectSpacer {
+    width: 50%;
+    order: 3;
+  }
+
+  #projects {
+    margin: 40px 20px;
+  }
 }
 
 @media all and (min-width: 992px) {
   .mainDiv {
-    height: 550px;
+    height: 600px;
   }
 
   .aboutContainer {
     max-width: 1035px;
     margin: auto;
   }
+}
 
+@media all and (min-width: 1300px) {
+  .mainDiv {
+    height: 650px;
+  }
 
+  .homepageButton {
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    margin: 20px 0;
+    text-align: right;
+    font-size: 1.4rem;
+  }
 }
