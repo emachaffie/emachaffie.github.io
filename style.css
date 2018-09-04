@@ -136,7 +136,7 @@ main {
 .projectLinkDiv {
   display: flex;
   justify-content: center;
-  width: 90%;
+  /* justify-items: space-around; */
 }
 
 .projectLink {
@@ -144,19 +144,20 @@ main {
   font-weight: 900;
   font-size: .9rem;
   padding: 8px 8px;
-  color: #fff;
-  background-color: rgba(70, 70, 70, 0.8);
-  margin: 10px;
+  color: rgba(70, 70, 70);
+  border-bottom: solid 1px rgba(70, 70, 70, 0.6);
+  margin: 30px 20px 10px 0;
   width: 200px;
   text-align: center;
 }
 
 .projectLink:visited {
-  color: #fff;
+  color: rgba(70, 70, 70);
 }
 
 .projectLink:hover {
-  background-color: #474747;
+  background-color: rgba(70, 70, 70, 0.4);
+  color: #fff;
 }
 
 .projectSubheading {
@@ -322,15 +323,11 @@ main {
   }
 
   .technologyP {
-    order: 4;
-    margin-top: 30px;
-    max-width: 45%;
+    margin: 30px 0;
   }
 
   .projectLinkDiv {
-    width: 45%;
-    order:6;
-    align-self: center;
+    /* width: 45%; */
   }
 
   .projectScreenshotLink {
