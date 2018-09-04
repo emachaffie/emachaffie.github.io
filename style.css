@@ -42,8 +42,6 @@ nav a {
   text-decoration: none;
 }
 
-/* Main */
-
 main {
   margin: 0 5%;
 }
@@ -139,24 +137,26 @@ main {
   display: flex;
   justify-content: center;
   width: 90%;
-  height: 20px;
 }
 
 .projectLink {
   text-decoration: none;
   font-weight: 900;
-  font-size: 1rem;
-  padding: 0 25px;
-  color: rgba(70, 70, 70);
+  font-size: .9rem;
+  padding: 8px 8px;
+  color: #fff;
+  background-color: rgba(70, 70, 70, 0.8);
+  margin: 10px;
+  width: 200px;
+  text-align: center;
 }
 
 .projectLink:visited {
-  color: #474747;
+  color: #fff;
 }
 
 .projectLink:hover {
-  font-size: 1.08rem;
-  color: #000;
+  background-color: #474747;
 }
 
 .projectSubheading {
@@ -173,14 +173,13 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 15px 0;
-  background-color: #A3C5E0;
+  background-color: #99BDDC;
 }
 
 .aboutContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* max-width: 90%; */
   margin: 0 10px;
 }
 
@@ -198,7 +197,7 @@ main {
   justify-content: space-around;
   margin: 20px 0;
   width: 100%;
-  background-color: #A3C5E0;
+  background-color: #99BDDC;
 }
 
 .homepageButtonAbout {
@@ -207,7 +206,7 @@ main {
   font-weight: 400;
   font-size: 1.1rem;
   color: white;
-  background-color: #A3C5E0;
+  background-color: #99BDDC;
   border: none;
   flex-shrink: 1;
 }
@@ -307,7 +306,7 @@ main {
   }
 
   .projectTitle {
-    width: 45%;
+    width: 100%;
     order: 0;
     align-self: center;
   }
@@ -318,8 +317,8 @@ main {
   }
 
   .projectScreenshot {
-    /* margin: 0 0 0 20px; */
-    margin: 5px 0 0 0;
+    margin: 0 0 20px 0;
+    order: 2;
   }
 
   .technologyP {
@@ -330,7 +329,7 @@ main {
 
   .projectLinkDiv {
     width: 45%;
-    order:0;
+    order:6;
     align-self: center;
   }
 
