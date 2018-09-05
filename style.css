@@ -143,8 +143,9 @@ main {
   text-decoration: none;
   font-weight: 900;
   font-size: .9rem;
-  padding: 8px 8px;
-  color: rgba(70, 70, 70);
+  padding: 6px 8px;
+  color: #fff;
+  background-color: rgba(70, 70, 70, 0.6);
   /* border-bottom: solid 1px rgba(70, 70, 70, 0.6); */
   margin: 30px 20px 10px 0;
   width: 200px;
@@ -152,11 +153,11 @@ main {
 }
 
 .projectLink:visited {
-  color: rgba(70, 70, 70);
+  color: #fff;
 }
 
 .projectLink:hover {
-  background-color: rgba(70, 70, 70, 0.4);
+  background-color: rgba(70, 70, 70, 0.8);
   color: #fff;
 }
 
