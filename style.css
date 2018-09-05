@@ -203,14 +203,14 @@ main {
 }
 
 .homepageButtonAbout {
-  padding: 15px 20px;
+  padding: 15px 40px;
   margin: 0;
   font-weight: 400;
   font-size: 1.1rem;
   color: white;
   background-color: #99BDDC;
   border: none;
-  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 .homepageButtonAbout:hover {
@@ -327,10 +327,6 @@ main {
     margin: 30px 0;
   }
 
-  .projectLinkDiv {
-    /* width: 45%; */
-  }
-
   .projectScreenshotLink {
     max-width: 50%;
     order: 2;
@@ -344,6 +340,10 @@ main {
 
   #projects {
     margin: 40px 20px;
+  }
+
+  .homepageButtonAbout {
+    padding: 15px 60px;
   }
 }
 
