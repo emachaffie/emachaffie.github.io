@@ -284,6 +284,7 @@ main {
     order: 6;
     margin-left: 20px;
     margin-top: 20px;
+    max-width: 45%;
   }
   
   .p2 {
