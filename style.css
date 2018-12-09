@@ -110,6 +110,19 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.projectIntro {
+  width: 90%;
+}
+
+.projectIntroOne {
+  margin-bottom: 30px;
+}
+
+.projectIntroTwo {
+  margin-bottom: 30px;
+}
+
 .singleProject {
   width: 90%;
   display: flex;
