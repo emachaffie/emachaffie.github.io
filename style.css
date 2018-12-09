@@ -58,7 +58,7 @@ main {
  }
 
  .tagline {
-   font-size: 2.2rem;
+   font-size: 1.5rem;
    font-weight: 800;
    margin: 10px 0 10px 0;
    text-align: center;
@@ -70,10 +70,14 @@ main {
   font-weight: 400;
  }
 
-.spacer {
+.spacerTop {
   width: 100%;
-  height: 275px;
-  background-color: transparent;
+  height: 25px;
+  /* background-color: transparent; */
+}
+
+.spacerBottom {
+  height: 300px;
 }
 
 .buttonContainer {
@@ -251,8 +255,12 @@ main {
     width: 200px;
   }
 
-  .spacer {
-    height: 50px;
+  .spacerTop {
+    height: 25px;
+  }
+
+  .spacerBottom {
+    height: 75px;
   }
 
   .homepageButton {
